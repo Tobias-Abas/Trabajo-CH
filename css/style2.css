@@ -130,3 +130,53 @@ p{
   border: 1px solid #97d848;
 }
 
+/* Empieza Footer */
+.footer{
+  background-color:#1D202B;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  }
+  
+  .footer__logo{
+  margin: 0.5rem auto;
+  padding: 0.5rem;
+  width: 60%;
+  text-align: center;
+  
+  }
+  
+  .logo__imagen{
+  margin: 0 auto;
+  width: 30%;
+  }
+  
+  .red-social{
+  width: 50%;
+  margin: 0.5rem auto;
+  display: flex;
+  flex-direction: column;
+  }
+  
+  .red-social__titulo{
+  font-size: 2rem;
+  text-align: center;
+  }
+  
+  .contain-red-social{
+  display: flex;
+  width: 75%;
+  margin: 1rem auto;
+  justify-content: space-between;
+  }
+  
+  .red-social__enlace{
+  width: 20%;
+  text-align: center;
+  
+  }
+  
+  .red-social__logo{
+  width: 50%;
+  }
+  /* Footer termina */
